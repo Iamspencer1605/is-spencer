@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lavender;
+    height: 300vh;
+    width: 100vh;
+    padding: 10vh;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200vh;
+    padding: 15px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 20vh;
+
+}
+.h {
+    display: flex;
+    font-size: 60px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.b{
+    color: blue;
+}
+.navbar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.navbar a:hover{
+    color: blue;
+    text-underline-position: below;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    text-decoration: none;
+}
+.btn-box a{
+display: flex;
+width: 90px;
+background: lavender;
+border: 1px solid blue;
+border-radius: 30px;
+font-size: 19px;
+color: rgb(16, 12, 240);
+text-decoration: none;
+font-weight:600 ;
+letter-spacing: 1px;
+justify-content: center;
+align-items: center;
+box-sizing: 25px;
+padding: 5px 10px ;
+
+}
+.btn-box a:hover{
+color: white;
+background: blue;
+transition: 1s;
+}
+.HOME{
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    padding: 15px 5%;
+    position: relative;
+}
+.HOME-content {
+    max-width: 500px;
+}
+.HOME-content {
+font-size: 50px;
+font-weight: 700;
+}
+.HOME-content b{
+    color: blue;
+    text-decoration-line: underline;
+    line-clamp: 1;
+}
+.HOME-content b:hover{
+    color: limegreen;
+    transition: 5s;
+}
+.HOME-content p{
+    font-size: 20px ;
+}
+.HOME img{
+    height: 50vh;
+    width: 30vh;
+    padding: 10vh;
+}
+.src{
+border:1px;
+height: 10vh;
+
+}
+
+.class-13{
+    background: blue;
+    display: flex;
+    color: white;
+    height: 80px;
+    width: 180vh;
+    justify-content: space-between;
+    font-size: 20px;
+    }
+.class-13 img{
+    height: 50vh;
+    float: unset;
+}
+
+.ABOUT{
+    width: 180vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 5vh;
+}
+.ABOUT h1{
+    display: table-cell;
+}
+.ABOUT-content{
+    width: 200px;
+    display: flex;
+    padding: 5vh;
+    justify-content:center;
+    align-items: center;
+    z-index: 20vh;
+    height: vh;
+    border: 1px solid blue;
+    border-radius: 20px;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1px;
+    box-sizing: 100px;
+    background: white;
+}
+.ABOUT-content:hover{
+    color:white;
+    background:blue;
+    transition:2s;
+}
+.add{
+    height: 50vh;
+    padding: 10vh;
+    display: flex;
+    width: 130vh;
+    font-size: 4vh;
+    text-decoration: wavy;
+    float: left;
+    background: white;
+    justify-content: space-between;
+}
+.add:hover{
+    color: aqua;
+    background: black;
+    transition: 2s;
+}
+.add img{
+    height: 40vh;
+    width: 40vh;
+}
+.div1{
+    height: 200vh;
+    padding: 30vh;
+    font-size: 10px;
+}
+.ad{
+    padding: 10vh;
+    height: 50vh;
+    width: 180vh;
+    display: flex;
+    justify-content: space-between;
+    background: lavender;
+}
+.ad p{
+    height: 10vh;
+}
+.ad:hover{
+    color: aqua;
+    background: black;
+    transition: 2s;
+}
+.m2{
+    background: white;
+    border-radius: 10px;
+    width: 50vh;
+    font-size: 10px;
+    padding: 5vh;
+}
+.m2:hover{
+    color: white;
+    background: blue;
+    transition: 3s;
+}
+
+.ab{
+    padding: 10vh;
+    background: white;
+    width: 180vh;
+    display: flex;
+    height: 50vh;
+    justify-content: space-between;
+}
+.ab strong{
+    color: blue;
+}
+.ab:hover{
+    color: aqua;
+    background: black;
+    transition: 2s;
+}
+.ab img{
+    height: 250px;
+    width: 250px;
+}
+.ac{
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 180vh;
+    height: 30vh;
+    padding: 0;
+    align-items: center;
+    font-size: 15px;
+}
+.ac:hover{
+    color: aqua;
+    background: black;
+    transition: 2s;
+}
+.ac-content a{
+color: white;
+text-decoration: none;
+display: flow;
+justify-content: space-between;
+border-radius: 10px;
+padding: 3px;
+align-items: center;
+}
+
+.ac-content a:hover{
+    color: blue;
+    background: white;
+    transition: 2s;
+}
+.hr{
+    width: 180vh;
+}
+
+
+
